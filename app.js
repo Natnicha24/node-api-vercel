@@ -38,21 +38,21 @@ module.exports=app;
 //     port: 3307
 // });
 
-const con = mysql.createConnection({
-    host: 'aws.connect.psdb.cloud',
-    user: 'cf32oew6ci0d5avthps1',
-    password: 'pscale_pw_AouXhub58keu9pkvAyJkNigMrRm6yEPxy9RWj8tObcC',
-    database: 'project_db',
-    port: 3306,
-    // database: project_db
-    // username: cf32oew6ci0d5avthps1
-    // host: aws.connect.psdb.cloud
-    // password: pscale_pw_AouXhub58keu9pkvAyJkNigMrRm6yEPxy9RWj8tObcC
+// const con = mysql.createConnection({
+//     host: 'aws.connect.psdb.cloud',
+//     user: 'cf32oew6ci0d5avthps1',
+//     password: 'pscale_pw_AouXhub58keu9pkvAyJkNigMrRm6yEPxy9RWj8tObcC',
+//     database: 'project_db',
+//     port: 3306,
+//     // database: project_db
+//     // username: cf32oew6ci0d5avthps1
+//     // host: aws.connect.psdb.cloud
+//     // password: pscale_pw_AouXhub58keu9pkvAyJkNigMrRm6yEPxy9RWj8tObcC
       
-    ssl: {
-        ca: fs.readFileSync('cacert.pem'),
-    }
-});
+//     ssl: {
+//         ca: fs.readFileSync('cacert.pem'),
+//     }
+// });
 
 // ตั้งค่า CORS
 
